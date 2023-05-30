@@ -1,3 +1,1 @@
 # News Aggregator
- 
-contact: xxxxxxxx
