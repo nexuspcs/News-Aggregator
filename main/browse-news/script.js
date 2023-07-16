@@ -19,6 +19,7 @@ function getNews() {
     // Convert the day to a two-digit string format
     const formattedDay = day.toString().padStart(2, '0');
 
+    let numOfArticles = 2;
 
 
    var url = 'https://newsapi.org/v2/everything?' +
@@ -27,6 +28,7 @@ function getNews() {
       'sortBy=popularity&' +
       'language=en&' +
       'searchIn=title&' +
+      'pageSize=' + numOfArticles + '&' +
       'apiKey=xxxxxxxx';
 
     
